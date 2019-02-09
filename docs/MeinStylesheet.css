@@ -1,0 +1,14 @@
+
+body { font-family: sans-serif; }
+
+pre {
+    border          : 1px dashed black;     
+    display         : inline-block; 
+    padding         : 30px;
+    background-color: #F0F0F0;
+}
+
+input {
+    margin-bottom: 10px;
+}
+    

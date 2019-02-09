@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>JSON und JavaScript</title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="MeinStylesheet.css">
+	<script src="MeinCode.js" ></script>
+</head>
+<body>
+	<h1>JSON und JavaScript</h1>
+
+	<p>
+		Wenn Sie auf den Button drücken, dann wird das unten abgebildete JSON-Dokument als JavaScript-Objekt
+		erzeugt. Es wird dann ein Dialog angezeigt, der einige Werte des Objekts beinhaltet.		
+	</p>
+
+	<p>
+	  <input type="Button" value="Los!"  onClick="buttonEventHandler(); return false;" />
+    </p>
+
+	<pre>
+{
+	"titel"       : "Großes Buch der Allwissenheit",
+	"autoren"     : [ "Alice Mayer", "Bob Brown" ],
+	"jahr"        : 2001,
+	"erstauflage" : true,
+	"verlag"  : {
+		"name" : "Beispiel-Verlag",
+		"ort"  : "Berlin"
+	}
+}
+	</pre>
+
+</body>
+</html>
+
+	
